@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+
+<style> 
+input{
+    display: block;
+    /* width: 100px; */
+    border-radius: 8px;
+}
+
+.container{
+    /* justify-content: center; */
+margin: 20px;
+margin-left: 30px;
+background-color: springgreen;
+}
+
+.avatar{
+    margin-left: 100px;
+}
+
+.all{
+    background-color: rgb(130, 238, 220);
+}
+
+    
+</style>
+<body>
+    <form style="border: 8px solid black;">
+    <div class="all">
+
+    <h1>Log in Form</h1>
+
+    <div class="avatar">
+        <img src="avatar.jpg" alt="" style="height: 200px; width: 200px;">
+    </div>
+
+    <div class="container">
+<label for="user name"><b>UserName</b></label>
+<input type="text" placeholder="Enter UserName" 
+name="UserName" required>
+
+
+<label for="password"><b>Password</b></label>
+<input type="password" 
+style="color: brown;
+background-color: rgb(189, 224, 64);"
+width="100px;"
+
+placeholder="Password"
+ name="password" required>
+
+    </div>
+
+    <button type="submit" style="height: 50px; width: 100px;
+    background-color: royalblue;
+    /* justify-content: center; */
+    margin-left: 250px;">Login</button>
+<div style="display: flex;">
+    <input id="Remember" type="checkbox"> 
+    <label for="Remember">Remember me</label>
+</div>
+   
+
+    <button class="cancel">Cancel</button>
+    <span class="password">Forgot <a href="#">Password</a></span>
+
+
+
+    </div>
+    </form>
+</body>
+</html>
